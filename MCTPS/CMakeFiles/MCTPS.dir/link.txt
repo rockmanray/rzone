@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../Release/libMCTPS.a  CMakeFiles/MCTPS.dir/BaseGtpEngine.cpp.o CMakeFiles/MCTPS.dir/Configure.cpp.o CMakeFiles/MCTPS.dir/ConfigureLoader.cpp.o CMakeFiles/MCTPS.dir/Invoker.cpp.o CMakeFiles/MCTPS.dir/ProgramOption.cpp.o CMakeFiles/MCTPS.dir/Random.cpp.o CMakeFiles/MCTPS.dir/strops.cpp.o CMakeFiles/MCTPS.dir/TimeSystem.cpp.o CMakeFiles/MCTPS.dir/Logger.cpp.o
+/usr/bin/ranlib ../Release/libMCTPS.a
