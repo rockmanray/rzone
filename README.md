@@ -1,5 +1,6 @@
 # rzone
 This repository is for the paper "A Novel Approach to Solving Goal-Achieving Problems for Board Games", which was accepted by AAAI-22.
+The follwing link is our paper in arxiv:
 https://arxiv.org/pdf/2112.02563.pdf
 
 # Build
@@ -11,7 +12,7 @@ unzip radius3.zip
 cd rzone/database/dcnn/ELF
 unzip elf_v2_weight.zip
 
-## Run as container
+## Run as a container
 podman run --rm -it -v $HOME:/workspace --runtime runc --security-opt seccomp=unconfined -w /workspace/rzone --network="host" rockmanray/gorzone
 
 # Evaluation
