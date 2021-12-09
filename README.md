@@ -1,7 +1,7 @@
 # rzone
 This repository is for the paper "A Novel Approach to Solving Goal-Achieving Problems for Board Games", which was accepted by AAAI-22.
 The follwing link is our paper in arxiv:
-https://arxiv.org/pdf/2112.02563.pdf
+https://arxiv.org/abs/2112.02563
 
 # Build
 
