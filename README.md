@@ -10,7 +10,7 @@ git clone git@github.com:rockmanray/rzone.git \
 cd rzone/database \
 unzip radius3.zip \
 cd rzone/database/dcnn/ELF \
-unzip elf_v2_weight.zip \
+unzip elf_v2_weight.zip 
  
 ## Run as a container
 podman run --rm -it -v $HOME:/workspace --runtime runc --security-opt seccomp=unconfined -w /workspace/rzone --network="host" rockmanray/gorzone
@@ -18,18 +18,18 @@ podman run --rm -it -v $HOME:/workspace --runtime runc --security-opt seccomp=un
 # Evaluation
 The problems used in the experiments can be found in the directory "tsumego". \
 In the evalaution, we encapsulated the problems in json format which contains the settings (ko rules, player to move, crucial stones, etc.) for the program to solve. \
-You can run the following scripts to solve the tsumego problems. \
+You can run the following scripts to solve the tsumego problems. 
 
 For 7x7 problems: \
-./run_7x7.sh \
+./run_7x7.sh 
 
 For 19x19 problems: \
-./run_19x19.sh \
+./run_19x19.sh 
 
 The result will be saved as json format in the directory "result".  \
-For example, for the 7x7 problem 1.json with AlphaZero and RZS, the result will be saved as result_1.json in rzone/result/7x7/AZ_RZ. \
+For example, for the 7x7 problem 1.json with AlphaZero and RZS, the result will be saved as result_1.json in rzone/result/7x7/AZ_RZ. 
 
-The property "NumSimulations" in the json files is the number of nodes that need to solve that problem. \
+The property "NumSimulations" in the json files is the number of nodes that need to solve that problem. 
 
 # Supplementary Material
 The pdf appendix.pdf provides the supplementary material for the paper.
