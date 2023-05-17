@@ -33,7 +33,7 @@ The property "NumSimulations" in the json files is the number of nodes that need
 
 # Supplementary Material
 The pdf appendix.pdf provides the supplementary material for the paper.
-It includes the following aterials:
+It includes the following materials:
 * Summarize how blocks on stones are defined to be unconditionally alive (UCA) for achieving safety in L&Dproblems by Benson (1976).
 *  Present zone dilation methods that expand zones to satisfy the three CR  conditions and illustrate the caseswhere zone dilation is needed for L&D problems.
 *  Present a goal-achieving solver that combines RZS withdepth-first search.
